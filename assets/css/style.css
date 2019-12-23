@@ -1,0 +1,24 @@
+body {
+  font-size: 1.2em;
+}
+
+.user-pic {
+  height: 26px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 5px;
+}
+
+ul.tag-list {
+  padding-left: 0 !important;
+  display: inline-block;
+  list-style: none !important;
+}
+ul.tag-list li {
+  display: inline-block !important;
+}
+.tag-list i {
+  font-size: 0.6rem;
+  margin-right: 5px;
+  cursor: pointer;
+}

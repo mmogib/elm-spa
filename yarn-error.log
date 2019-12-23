@@ -1,0 +1,36 @@
+Arguments: 
+  /home/mohammed/.nvm/versions/node/v11.14.0/bin/node /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /opt/PostgreSQL/9.6/bin:/home/mohammed/julia-1.1.0/bin:/home/mohammed/anaconda3/bin:/home/mohammed/anaconda3/condabin:/home/mohammed/.nvm/versions/node/v11.14.0/bin:/home/mohammed/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  11.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:136925:13)
+      at Interface.emit (events.js:193:13)
+      at Interface._ttyWrite (readline.js:826:16)
+      at ReadStream.onkeypress (readline.js:183:10)
+      at ReadStream.emit (events.js:193:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1097:36)
+      at ReadStream.emit (events.js:193:13)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
